@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="MainFrame" prefHeight="483.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employmentsystem.ViewEmployersController">
+   <children>
+      <TableView fx:id="table" layoutY="39.0" prefHeight="444.0" prefWidth="673.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="39.0">
+        <columns>
+          <TableColumn fx:id="id_col" prefWidth="39.0" text="ID" />
+          <TableColumn fx:id="fullname_col" prefWidth="119.0" text="Full Name" />
+            <TableColumn fx:id="department_col" prefWidth="121.0" text="Department" />
+            <TableColumn fx:id="age_col" prefWidth="70.0" text="Age" />
+            <TableColumn fx:id="gender_col" prefWidth="62.0" text="Gender" />
+            <TableColumn fx:id="education_col" prefWidth="125.0" text="Education" />
+            <TableColumn fx:id="address_col" prefWidth="120.0" text="Address" />
+        </columns>
+      </TableView>
+      <TextField fx:id="SEARCH_TXT" prefHeight="40.0" prefWidth="673.0" promptText="Search by Full Name..." AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Button defaultButton="true" layoutX="634.0" mnemonicParsing="false" onAction="#Search" prefHeight="40.0" prefWidth="38.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+         <effect>
+            <ImageInput x="10.0" y="10.0">
+               <source>
+                  <Image url="@imgs/1.png.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

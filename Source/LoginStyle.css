@@ -1,0 +1,31 @@
+.text-field{
+	-fx-background-color: #063753;
+	-fx-padding: 10 10 10 10;
+	-fx-text-fill: white;
+	-fx-font-size: 14px;
+}
+.label{
+	-fx-text-fill: white;
+	-fx-font-size: 14px;
+}
+.button{
+	-fx-background-color: #063753;
+	-fx-padding: 10 10 10 10;
+	-fx-text-fill: white;
+	-fx-font-size: 14px;
+}
+.button:hover{
+	-fx-background-color: #114563;
+	-fx-cursor: hand;
+}
+.button:pressed{
+	-fx-background-color: #06517b;
+}
+#TITLE_LBL{
+	-fx-text-fill: white;
+	-fx-font-size: 28px;
+}
+#STATUS_LBL{
+    -fx-background-color: #063753;
+    -fx-label-padding: 10 10 10 10;
+}

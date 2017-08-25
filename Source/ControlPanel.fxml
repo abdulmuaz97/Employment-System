@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="414.0" prefWidth="479.0" style="-fx-background-color: #145e88;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employmentsystem.ControlPanelController">
+   <children>
+      <Button layoutX="24.0" layoutY="153.0" mnemonicParsing="false" onAction="#ViewAllEmployers" prefHeight="60.0" prefWidth="209.0" text="View All Employers" />
+      <Button layoutX="243.0" layoutY="153.0" mnemonicParsing="false" onAction="#UpdateDelete" prefHeight="60.0" prefWidth="209.0" text="Update/Detete Employer" />
+      <Button layoutX="24.0" layoutY="223.0" mnemonicParsing="false" onAction="#AddNewEmployers" prefHeight="60.0" prefWidth="209.0" text="Add New Employer" />
+      <Button layoutX="243.0" layoutY="223.0" mnemonicParsing="false" onAction="#ChangeAccessInfo" prefHeight="60.0" prefWidth="209.0" text="Change Access Info" />
+      <Label fx:id="TITLE_LBL" layoutX="204.0" layoutY="64.0" text="Control Panel" />
+      <ImageView fitHeight="95.0" fitWidth="91.0" layoutX="97.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/control.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="STATUS_LBL" layoutY="308.0" prefHeight="40.0" prefWidth="479.0" text="Status:" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Label layoutX="31.0" layoutY="300.0" prefHeight="60.0" prefWidth="428.0" text="This program has been programmed and designed by AbdulMuaz Aqeel, Its an open source you can easily edit and share the code..Enjoy" wrapText="true" />
+   </children>
+</AnchorPane>

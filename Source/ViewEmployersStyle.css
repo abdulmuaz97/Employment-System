@@ -1,0 +1,9 @@
+.text-field{
+	-fx-background-color: #063753;
+	-fx-padding: 10 10 10 10;
+	-fx-text-fill: white;
+	-fx-font-size: 14px;
+}
+#SEARCH_TXT{
+    -fx-background-radius: 0 0 0 0;
+}

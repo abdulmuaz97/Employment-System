@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="323.0" prefWidth="397.0" style="-fx-background-color: #145e88;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="employmentsystem.ChangeAccessInfoController">
+   <children>
+      <Button layoutX="120.0" layoutY="228.0" mnemonicParsing="false" onAction="#SaveChanges" prefHeight="40.0" prefWidth="158.0" text="Save Changes" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="120.0" />
+      <Label fx:id="STATUS_LBL" layoutY="360.0" prefHeight="40.0" prefWidth="397.0" text="Status:" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <TextField fx:id="NEW_USERNAME_TXT" layoutX="45.0" layoutY="123.0" prefHeight="40.0" prefWidth="308.0" promptText="New Username" AnchorPane.leftAnchor="45.0" AnchorPane.rightAnchor="45.0" />
+      <ImageView fitHeight="75.0" fitWidth="69.0" layoutX="32.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/data.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="TITLE_LBL" layoutX="122.0" layoutY="45.0" text="Change Aceess Info" />
+      <PasswordField fx:id="NEW_PASSWORD_TXT" layoutX="45.0" layoutY="174.0" prefHeight="40.0" prefWidth="307.0" promptText="New Password" />
+   </children>
+</AnchorPane>

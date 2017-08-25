@@ -1,0 +1,44 @@
+.text-field{
+    -fx-background-color: #063753;
+    -fx-padding: 10 10 10 10;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+#UPDATE_BTN{
+    -fx-background-color: #063753;
+    -fx-padding: 10 10 10 10;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+#UPDATE_BTN:hover{
+    -fx-background-color: #388E3C;
+    -fx-cursor: hand;
+}
+#UPDATE_BTN:pressed{
+    -fx-background-color: #43A047;
+}
+
+#DELETE_BTN{
+    -fx-background-color: #063753;
+    -fx-padding: 10 10 10 10;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+#DELETE_BTN:hover{
+    -fx-background-color: #c62828;
+    -fx-cursor: hand;
+}
+#DELETE_BTN:pressed{
+    -fx-background-color: #d32f2f;
+}
+#TITLE_LBL{
+    -fx-text-fill: white;
+    -fx-font-size: 28px;
+}
+
+#STATUS_LBL{
+    -fx-background-color: #063753;
+    -fx-label-padding: 10 10 10 10;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
