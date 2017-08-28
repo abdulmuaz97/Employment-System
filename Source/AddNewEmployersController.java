@@ -16,12 +16,7 @@ import javafx.scene.control.*;
 public class AddNewEmployersController implements Initializable{
 
     @FXML private Label STATUS_LBL;
-    @FXML private TextField FULLNAME_TXT;
-    @FXML private TextField DEPARTMENT_TXT;
-    @FXML private TextField AGE_TXT;
-    @FXML private TextField GENDER_TXT;
-    @FXML private TextField EDUCATION_TXT;
-    @FXML private TextField ADDRESS_TXT;
+    @FXML private TextField FULLNAME_TXT, DEPARTMENT_TXT, DEPARTMENT_TXT, AGE_TXT, GENDER_TXT, EDUCATION_TXT, ADDRESS_TXT;
     
     Connection con;
     Statement statement;
